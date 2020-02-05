@@ -17,4 +17,13 @@ public class Controller {
 
         lblUitvoer.setText(String.valueOf(Uitvoer));
     }
+
+    public void KlikPlus(MouseEvent mouseEvent) {
+        //test
+        double dGetal1 = Double.parseDouble(txtGetal1.getText());
+        double dGetal2 = Double.parseDouble(txtGetal2.getText());
+        double dSom = dGetal1 + dGetal2;
+        lblUitvoer.setText(String.valueOf(dSom));
+        System.out.println("test");
+    }
 }

@@ -16,5 +16,6 @@
 =======
       <Button layoutX="274.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#clicked_Aftrekken" text="-" />
       <Label fx:id="lblUitvoer" layoutX="290.0" layoutY="73.0" />
+      <Button layoutX="49.0" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#KlikPlus" text="Optellen" />
    </children>
 </AnchorPane>
