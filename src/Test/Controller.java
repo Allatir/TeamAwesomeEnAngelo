@@ -12,6 +12,7 @@ public class Controller {
     public void Clicked_Execute(MouseEvent mouseEvent) {
         double Getal1 = Double.parseDouble(txtGetal1.getText());
         double Getal2 = Double.parseDouble(txtGetal2.getText());
+<<<<<<< HEAD
 
         double Uitvoer = Getal1 * Getal2;
 
@@ -25,5 +26,11 @@ public class Controller {
         double dSom = dGetal1 + dGetal2;
         lblUitvoer.setText(String.valueOf(dSom));
         System.out.println("test");
+=======
+
+        double Uitvoer = Getal1 * Getal2;
+
+        lblUitvoer.setText(String.valueOf(Uitvoer));
+>>>>>>> Ilyas
     }
 }
