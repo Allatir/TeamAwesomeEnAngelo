@@ -5,12 +5,21 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> Ilyas
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Test.Controller">
    <children>
       <TextField fx:id="txtGetal1" layoutX="14.0" layoutY="14.0" />
       <TextField fx:id="txtGetal2" layoutX="437.0" layoutY="14.0" />
+<<<<<<< HEAD
       <Button layoutX="274.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#Clicked_Execute" text="Bereken" />
       <Label fx:id="lblUitvoer" layoutX="281.0" layoutY="140.0" prefHeight="17.0" prefWidth="45.0" text="Result" textAlignment="CENTER" />
       <Button layoutX="274.0" layoutY="66.0" mnemonicParsing="false" onMouseClicked="#Clicked_Divide" prefHeight="25.0" prefWidth="59.0" text="/" />
+=======
+      <Button layoutX="274.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#clicked_Aftrekken" text="-" />
+      <Label fx:id="lblUitvoer" layoutX="290.0" layoutY="73.0" />
+>>>>>>> Ilyas
    </children>
 </AnchorPane>

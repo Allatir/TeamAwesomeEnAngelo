@@ -18,6 +18,7 @@ public class Controller {
         lblUitvoer.setText(String.valueOf(Uitvoer));
     }
 
+<<<<<<< HEAD
 
     public void Clicked_Divide(MouseEvent mouseEvent) {
         final double dTeller = Double.parseDouble(txtGetal1.getText());
@@ -27,4 +28,13 @@ public class Controller {
         lblUitvoer.setText("" + dResult);
     }
 
+=======
+    public void clicked_Aftrekken(MouseEvent mouseEvent) {
+        int iGetal = Integer.parseInt(txtGetal1.getText());
+        int iGetal2 = Integer.parseInt(txtGetal2.getText());
+
+        int iResultaat = iGetal - iGetal2;
+        lblUitvoer.setText("" + iResultaat);
+    }
+>>>>>>> Ilyas
 }
