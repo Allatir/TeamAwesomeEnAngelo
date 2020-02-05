@@ -10,13 +10,11 @@ public class Controller {
     public Label lblUitvoer;
 
     public void Clicked_Execute(MouseEvent mouseEvent) {
-    }
+        double Getal1 = Double.parseDouble(txtGetal1.getText());
+        double Getal2 = Double.parseDouble(txtGetal2.getText());
 
-    public void clicked_Aftrekken(MouseEvent mouseEvent) {
-        int iGetal = Integer.parseInt(txtGetal1.getText());
-        int iGetal2 = Integer.parseInt(txtGetal2.getText());
+        double Uitvoer = Getal1 * Getal2;
 
-        int iResultaat = iGetal - iGetal2;
-        lblUitvoer.setText("" + iResultaat);
+        lblUitvoer.setText(String.valueOf(Uitvoer));
     }
 }
