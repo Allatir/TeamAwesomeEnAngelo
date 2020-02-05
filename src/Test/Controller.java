@@ -10,5 +10,13 @@ public class Controller {
     public Label lblUitvoer;
 
     public void Clicked_Execute(MouseEvent mouseEvent) {
+        double Getal1 = Double.parseDouble(txtGetal1.getText());
+        double Getal2 = Double.parseDouble(txtGetal2.getText());
+
+        double Uitvoer = Getal1 * Getal2;
+
+        lblUitvoer.setText(String.valueOf(Uitvoer));
     }
+
+
 }
