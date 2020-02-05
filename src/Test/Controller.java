@@ -18,7 +18,7 @@ public class Controller {
         lblUitvoer.setText(String.valueOf(Uitvoer));
     }
 
-<<<<<<< HEAD
+
     public void Clicked_Divide(MouseEvent mouseEvent) {
         final double dTeller = Double.parseDouble(txtGetal1.getText());
         final double dNoemer = Double.parseDouble(txtGetal2.getText());
@@ -26,7 +26,5 @@ public class Controller {
         double dResult = dTeller / dNoemer;
         lblUitvoer.setText("" + dResult);
     }
-=======
 
->>>>>>> branch_Bradley
 }
