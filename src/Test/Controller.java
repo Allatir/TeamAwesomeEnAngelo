@@ -10,10 +10,13 @@ public class Controller {
     public Label lblUitvoer;
 
     public void Clicked_Execute(MouseEvent mouseEvent) {
-        lblUitvoer.setText(String.valueOf(Multiply((Double.parseDouble(txtGetal1.getText())), (Double.parseDouble(txtGetal2.getText())))));
+        double Getal1 = Double.parseDouble(txtGetal1.getText());
+        double Getal2 = Double.parseDouble(txtGetal2.getText());
+
+        double Uitvoer = Getal1 * Getal2;
+
+        lblUitvoer.setText(String.valueOf(Uitvoer));
     }
 
-    public double Multiply(double getal1, double getal2){
-        return getal1 * getal2;
-    }
+
 }
