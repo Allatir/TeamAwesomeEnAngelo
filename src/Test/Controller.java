@@ -11,12 +11,16 @@ public class Controller {
 
     public void Clicked_Execute(MouseEvent mouseEvent) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Ilyas
         double Getal1 = Double.parseDouble(txtGetal1.getText());
         double Getal2 = Double.parseDouble(txtGetal2.getText());
 
         double Uitvoer = Getal1 * Getal2;
 
         lblUitvoer.setText(String.valueOf(Uitvoer));
+<<<<<<< HEAD
     }
 
 <<<<<<< Updated upstream
@@ -48,6 +52,8 @@ public class Controller {
 =======
         //test
 >>>>>>> Angelo_Test
+=======
+>>>>>>> Ilyas
     }
 <<<<<<< HEAD
 >>>>>>> Angelo
