@@ -10,6 +10,7 @@ public class Controller {
     public Label lblUitvoer;
 
     public void Clicked_Execute(MouseEvent mouseEvent) {
+<<<<<<< HEAD
         double Getal1 = Double.parseDouble(txtGetal1.getText());
         double Getal2 = Double.parseDouble(txtGetal2.getText());
 
@@ -24,5 +25,8 @@ public class Controller {
 
         double dResult = dTeller / dNoemer;
         lblUitvoer.setText("" + dResult);
+=======
+        //test
+>>>>>>> Angelo_Test
     }
 }
